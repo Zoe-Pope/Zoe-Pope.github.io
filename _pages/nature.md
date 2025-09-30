@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /nature/
 title: ""
 author_profile: true
 redirect_from: 
