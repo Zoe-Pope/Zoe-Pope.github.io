@@ -1,8 +1,11 @@
 ---
-permalink: /nature/
+layout: archive
 title: ""
+permalink: /nature/
 author_profile: true
-redirect_from: 
+redirect_from:
+  - /nature
+  - /nature.html
 ---
 
 <div><img src="/images/IMG_7458.jpeg" style="max-width: 800px; width: 100; height: auto;" alt="Taken at Snow Lake in Snoqualmie, Washington"><div>
