@@ -1,0 +1,24 @@
+<script>
+  const imagePaths = [
+    "images/IMG_5994.jpeg",
+    "images/IMG_7458.jpeg",
+    "images/IMG_8069.jpeg",
+    "images/IMG_8108.jpeg",
+  ];
+
+  // Function to get a random image
+  function displayRandomImage() {
+    const randomIndex = Math.floor(Math.random() * imagePaths.length);
+    const randomImagePath = imagePaths[randomIndex];
+    document.getElementById('random-image-container').src = randomImagePath;
+  }
+</script>
+
+<!-- The image element that will be updated -->
+<img id="random-image-container" src="https://example.com/default-image.jpg" alt="A randomly selected image">
+
+<script>
+  // Call the function to display a random image when the page loads
+  displayRandomImage();
+</script>
+
