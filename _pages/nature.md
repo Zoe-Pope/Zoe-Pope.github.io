@@ -8,7 +8,7 @@ redirect_from:
   - /nature.html
 ---
 
-<div><img src="/images/IMG_7458.jpeg" style="max-width: 800px; width: 100; height: auto;" alt="Taken at Snow Lake in Snoqualmie, Washington"><div>
+<div><img src="/images/IMG_7458.jpeg" style="width: 50; height: auto;" alt="Taken at Snow Lake in Snoqualmie, Washington"><div>
 <br>
 
 <div><img src="/images/IMG_8069.jpeg" style="max-width: 800px; width: 100; height: auto;" alt="Taken from the White Ridge Loop Trail in Mt. Baker-Snoqualmie National Forest, Washington"><div>
