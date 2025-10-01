@@ -35,5 +35,5 @@ main:
   - title: "ᨒ"
     url: /nature/
 
-  - title: "test"
-    url: /test.html
+  #- title: "test"
+  #  url: /test.html
