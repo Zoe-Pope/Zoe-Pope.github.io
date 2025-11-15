@@ -12,7 +12,7 @@ I am a mathematics graduate student at University at Albany, SUNY under the advi
 I obtained my undergraduate degree from University at Albany, SUNY in the spring of 2024.
 
 ### You might've seen me...  
-   
+   _@ BUGCAT 2025_
    _@ Young Homotopy Theorists Meeting 2025_  
    _@ European Autumn School in Topology 2025_  
    _@ Talbot 2025_  
