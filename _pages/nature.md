@@ -19,11 +19,3 @@ redirect_from:
 
 <div><img src="/images/IMG_6943.jpeg" style="max-width: 100%; width: 100; height: auto;" alt="Taken in the Adirondacks, New York"><div>
 <br>
-
-
-[<div><img src="/images/IMG_8108.jpeg" style="max-width: 100%; width: 100; height: auto;" alt="Taken from the White Ridge Loop Trail in Mt. Baker-Snoqualmie National Forest, Washington"><div>
-<br>]: #
-
-[<div><img src="/images/IMG_5994.jpeg" style="max-width: 100%; width: 100; height: auto;" alt="Taken atop Mt. Storm King in Olympic National Park, Washington"><div>
-<br>]:#
-
