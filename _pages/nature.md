@@ -14,6 +14,13 @@ redirect_from:
 <div><img src="/images/IMG_8069.jpeg" style="max-width: 100%; width: 100; height: auto;" alt="Taken from the White Ridge Loop Trail in Mt. Baker-Snoqualmie National Forest, Washington"><div>
 <br>
 
+<div><img src="/images/IMG_8586.jpeg" style="max-width: 100%; width: 100; height: auto;" alt="Taken from Ben Nevis in Fort William, Scotland"><div>
+<br>
+
+<div><img src="/images/IMG_6943.jpeg" style="max-width: 100%; width: 100; height: auto;" alt="Taken in the Adirondacks, New York"><div>
+<br>
+
+
 [<div><img src="/images/IMG_8108.jpeg" style="max-width: 100%; width: 100; height: auto;" alt="Taken from the White Ridge Loop Trail in Mt. Baker-Snoqualmie National Forest, Washington"><div>
 <br>]: #
 
