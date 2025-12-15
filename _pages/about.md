@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a mathematics graduate student at the University at Albany, SUNY, working with <a href="https://varisco.info" target="_blank">Marco Varisco</a>. My interests lie in ∞-category theory and equivariant homotopy theory. I am currently thinking about the global orbit ∞-category.
+I am a mathematics graduate student at the <a href="https://www.albany.edu/math" target="_blank">University at Albany, State University of New York</a>, working with <a href="https://varisco.info" target="_blank">Marco Varisco</a>. My interests lie in homotopy theory, in particular equivariant and stable homotopy theory, and ∞-category theory. I am currently thinking about the global orbit ∞-category.
 
-I obtained my undergraduate degree from the University at Albany, SUNY, in the spring of 2024.
+I obtained my undergraduate degree from UAlbany in the spring of 2024.
 
 ### You might've seen me...  
    _@ BUGCAT 2025_  
@@ -20,5 +20,5 @@ I obtained my undergraduate degree from the University at Albany, SUNY, in the s
    _@ AMTRaK April 2025_  
    _@ Upstate New York Topology Seminar 2025_  
    _@ BUGCAT 2024_  
-   _@ AMS Fall 2024 Sectional Meeting_  
+   _@ AMS Fall 2024 Eastern Sectional Meeting_  
    _@ the top of a mountain somewhere 🏔️_
