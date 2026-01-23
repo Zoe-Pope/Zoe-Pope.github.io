@@ -4,6 +4,6 @@ collection: teaching
 type: "Spring 2026"
 permalink: /teaching/2026-spring-precalc
 venue: "UAlbany"
-date: 
+date: 2026-01-21
 location: "Albany, NY"
 ---
