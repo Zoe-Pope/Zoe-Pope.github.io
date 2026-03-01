@@ -23,7 +23,7 @@ repository               : "Zoe-Pope.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "zoe-profile.jpg"
+  avatar           : "zoe_profile.jpg"
   name             : "Zoë Pope"
   pronouns         : "she/her"  
   bio              : "Mathematics graduate student"
