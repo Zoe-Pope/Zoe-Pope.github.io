@@ -11,7 +11,8 @@ I am a mathematics graduate student at the <a href="https://www.albany.edu/math"
 
 I obtained my undergraduate degree from UAlbany in the spring of 2024.
 
-### You might've seen me...  
+### You might've seen me...
+   _@ FRG Workshop on Higher Categories and Geometry 2026_  
    _@ Midwest Topology Seminar 2026_  
    _@ BUGCAT 2025_  
    _@ Young Homotopy Theorists Meeting 2025_  
