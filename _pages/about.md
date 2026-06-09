@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a mathematics graduate student at the <a href="https://www.albany.edu/math" target="_blank">University at Albany, State University of New York</a>, working with <a href="https://varisco.info" target="_blank">Marco Varisco</a>. My interests lie in homotopy theory, in particular equivariant and stable homotopy theory, and ∞-category theory. I am currently thinking about the [global orbit ∞-category](files/ThesisDemo.pdf), and also about (∞,n)-categories as part of a [WIT V project](https://awm-math.org/research-networks/wit/).
+I am a mathematics graduate student at the <a href="https://www.albany.edu/math" target="_blank">University at Albany, State University of New York</a>, working with <a href="https://varisco.info" target="_blank">Marco Varisco</a>. My interests lie in homotopy theory, in particular equivariant and stable homotopy theory, and ∞-category theory. I've been thinking about the [global orbit ∞-category](https://scholarsarchive.library.albany.edu/etd/441/), and also about (∞,n)-categories as part of a [WIT V project](https://awm-math.org/research-networks/wit/).
 
-I obtained my undergraduate degree from UAlbany in the spring of 2024.
+I obtained my bachelor's degree and master's degree from UAlbany in 2024 and 2026 respectively.
 
 ### You might've seen me...
    _@ AMTRaK April 2026_  
