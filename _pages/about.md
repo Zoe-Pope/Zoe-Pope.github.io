@@ -12,6 +12,7 @@ I am a mathematics graduate student at the <a href="https://www.albany.edu/math"
 I obtained my bachelor's degree and master's degree from UAlbany in 2024 and 2026 respectively.
 
 ### You might've seen me...
+   _@ Summer School on Homotopy Colimits 2026_  
    _@ AMTRaK April 2026_  
    _@ FRG Workshop on Higher Categories and Geometry 2026_  
    _@ Midwest Topology Seminar 2026_  
