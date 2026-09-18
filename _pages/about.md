@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a mathematics graduate student at the <a href="https://www.albany.edu/math" target="_blank">University at Albany, State University of New York</a>, working with <a href="https://varisco.info" target="_blank">Marco Varisco</a>. My interests lie in homotopy theory, in particular equivariant and stable homotopy theory, and ∞-category theory. I've been thinking about the [global orbit ∞-category](https://scholarsarchive.library.albany.edu/etd/441/), and also about (∞,n)-categories as part of a [WIT V project](https://awm-math.org/research-networks/wit/).
+I am an incoming mathematics PhD student at <a href="https://www.math.cit.tum.de/en/math/home/">TU München</a> and the Collaborative Research Centre <a href="https://sfb1785.app.uni-regensburg.de/index.html">_Generalized Motivic Methods in Geometry_</a>, where I will be working with <a href="http://www.scheimbauer.at">Claudia Scheimbauer</a> and <a href="https://sites.google.com/view/tashi-walde/home?pli=1&authuser=0">Tashi Walde</a>. My interests lie in homotopy theory, in particular equivariant and stable homotopy theory, and ∞-category theory. I've been thinking about the [global orbit ∞-category](https://scholarsarchive.library.albany.edu/etd/441/), and also about (∞,n)-categories as part of a [WIT V project](https://awm-math.org/research-networks/wit/).
 
-I obtained my bachelor's degree and master's degree from UAlbany in 2024 and 2026 respectively.
+I obtained my bachelor's degree and master's degree in 2024 and 2026 respectively from the <a href="https://www.albany.edu/math" target="_blank">University at Albany, State University of New York</a>, where I worked with <a href="https://varisco.info" target="_blank">Marco Varisco</a>.
 
 ### You might've seen me...
    _@ Summer School on Homotopy Colimits 2026_  
