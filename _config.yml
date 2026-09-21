@@ -27,8 +27,8 @@ author:
   name             : "Zoë Pope"
   pronouns         : "she/her"  
   bio              : "Mathematics graduate student"
-  location         : "Albany, NY"
-  employer         : "SUNY Albany"
+  location         : 
+  employer         : 
   uri              : # URL
   email            : "zoe@worknotes.org" 
 
