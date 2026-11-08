@@ -42,17 +42,20 @@
     "vendor/font-awesome/brands"
 ;
 
-/* Make author profile picture larger on mobile */
 @media (max-width: 767px) {
   .author__avatar {
-    width: 180px;
-    max-width: 180px;
+    width: 90px;
+    max-width: 90px;
+    height: 90px;
     margin: 0 auto 1em;
+    padding: 3px;
+    box-sizing: border-box;
   }
 
   .author__avatar img {
-    width: 180px;
-    height: 180px;
+    display: block;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     border-radius: 50%;
   }
