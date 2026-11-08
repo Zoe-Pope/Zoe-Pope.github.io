@@ -26,14 +26,18 @@ author_profile: true
     {% endfor %}
   ];
 
-  const storageKey = "previousNatureImage";
-  const previousImage = sessionStorage.getItem(storageKey);
+  const storageKey = "recentNatureImages";
 
-  let availableImages = natureImages.filter(
-    image => image !== previousImage
+  let recentImages = JSON.parse(
+    sessionStorage.getItem(storageKey) || "[]"
   );
 
-  // If there is only one image, allow it to be shown again.
+  // Exclude the last two photographs
+  let availableImages = natureImages.filter(
+    image => !recentImages.includes(image)
+  );
+
+  // If there are too few images, allow repeats rather than showing nothing
   if (availableImages.length === 0) {
     availableImages = natureImages;
   }
@@ -44,7 +48,14 @@ author_profile: true
 
   const selectedImage = availableImages[randomIndex];
 
-  sessionStorage.setItem(storageKey, selectedImage);
+  // Remember the two most recently displayed photographs
+  recentImages.push(selectedImage);
+  recentImages = recentImages.slice(-2);
+
+  sessionStorage.setItem(
+    storageKey,
+    JSON.stringify(recentImages)
+  );
 
   document.getElementById("nature-image").src = selectedImage;
 })();
