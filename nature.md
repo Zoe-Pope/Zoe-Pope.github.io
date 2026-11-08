@@ -26,10 +26,27 @@ author_profile: true
     {% endfor %}
   ];
 
-  const randomIndex = Math.floor(Math.random() * natureImages.length);
+  const storageKey = "previousNatureImage";
+  const previousImage = sessionStorage.getItem(storageKey);
 
-  document.getElementById("nature-image").src =
-    natureImages[randomIndex];
+  let availableImages = natureImages.filter(
+    image => image !== previousImage
+  );
+
+  // If there is only one image, allow it to be shown again.
+  if (availableImages.length === 0) {
+    availableImages = natureImages;
+  }
+
+  const randomIndex = Math.floor(
+    Math.random() * availableImages.length
+  );
+
+  const selectedImage = availableImages[randomIndex];
+
+  sessionStorage.setItem(storageKey, selectedImage);
+
+  document.getElementById("nature-image").src = selectedImage;
 })();
 </script>
 
