@@ -28,34 +28,49 @@ author_profile: true
 
   const storageKey = "recentNatureImages";
 
-  let recentImages = JSON.parse(
-    sessionStorage.getItem(storageKey) || "[]"
+  if (natureImages.length === 0) return;
+
+  let recentImages = [];
+
+  try {
+    recentImages = JSON.parse(
+      sessionStorage.getItem(storageKey) || "[]"
+    );
+  } catch (error) {
+    recentImages = [];
+  }
+
+  // Keep only images that still exist
+  recentImages = recentImages.filter(
+    image => natureImages.includes(image)
   );
 
-  // Exclude the last two photographs
+  // Exclude the last two displayed photographs
   let availableImages = natureImages.filter(
     image => !recentImages.includes(image)
   );
 
-  // If there are too few images, allow repeats rather than showing nothing
+  // If fewer than three photographs exist, reset the history
   if (availableImages.length === 0) {
+    recentImages = [];
     availableImages = natureImages;
   }
 
-  const randomIndex = Math.floor(
-    Math.random() * availableImages.length
-  );
+  const selectedImage = availableImages[
+    Math.floor(Math.random() * availableImages.length)
+  ];
 
-  const selectedImage = availableImages[randomIndex];
-
-  // Remember the two most recently displayed photographs
   recentImages.push(selectedImage);
   recentImages = recentImages.slice(-2);
 
-  sessionStorage.setItem(
-    storageKey,
-    JSON.stringify(recentImages)
-  );
+  try {
+    sessionStorage.setItem(
+      storageKey,
+      JSON.stringify(recentImages)
+    );
+  } catch (error) {
+    // Continue displaying images if browser storage is unavailable
+  }
 
   document.getElementById("nature-image").src = selectedImage;
 })();
