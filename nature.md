@@ -6,29 +6,31 @@ author_profile: true
 ---
 
 {% assign nature_images = site.static_files | where_exp: "file", "file.path contains '/images/nature/'" %}
-
-{% if nature_images.size > 0 %}
+{% assign nature_paths = nature_images | map: "path" %}
 
 <div class="nature-random-image">
   <img
     id="nature-image"
-    src="{{ nature_images[0].path | relative_url }}"
-    alt="Nature photography"
-    style="display: block; width: 100%; max-width: none; height: auto;"
+    alt="Random nature photograph"
+    style="display: none; width: 100%; max-width: none; height: auto;"
   >
 </div>
 
 <script>
 (function() {
-  const natureImages = [
-    {% for image in nature_images %}
-      {{ image.path | relative_url | jsonify }}{% unless forloop.last %},{% endunless %}
-    {% endfor %}
-  ];
 
+  // All photographs discovered by Jekyll
+  const natureImages = {{ nature_paths | jsonify }};
+
+  // Remember the last two photographs
   const storageKey = "recentNatureImages";
 
-  if (natureImages.length === 0) return;
+  const imageElement = document.getElementById("nature-image");
+
+  if (!natureImages || natureImages.length === 0) {
+    console.error("No nature photographs found.");
+    return;
+  }
 
   let recentImages = [];
 
@@ -40,41 +42,40 @@ author_profile: true
     recentImages = [];
   }
 
-  // Keep only the two most recent images that still exist
-  recentImages = recentImages
-    .filter(image => natureImages.includes(image))
-    .slice(-2);
+  // Only retain photographs that still exist
+  recentImages = recentImages.filter(
+    image => natureImages.includes(image)
+  ).slice(-2);
 
-  // Exclude the last two displayed photographs
-  let availableImages = natureImages.filter(
+  // Exclude the last two photographs
+  const availableImages = natureImages.filter(
     image => !recentImages.includes(image)
   );
 
-  // Select a random image from the remaining photographs
+  // Randomly select from the remaining photographs
   const selectedImage = availableImages[
     Math.floor(Math.random() * availableImages.length)
   ];
 
-  // Update the image history
+  // Display the selected photograph
+  imageElement.src = selectedImage;
+  imageElement.style.display = "block";
+
+  // Update the viewing history
   recentImages.push(selectedImage);
-  recentImages = recentImages.slice(-2);
 
   try {
     sessionStorage.setItem(
       storageKey,
-      JSON.stringify(recentImages)
+      JSON.stringify(recentImages.slice(-2))
     );
   } catch (error) {
-    // Image selection still works if storage is unavailable
+    console.warn("Could not save image history.");
   }
-
-  document.getElementById("nature-image").src = selectedImage;
 
 })();
 </script>
 
-{% else %}
-
-<p>No nature photographs found.</p>
-
-{% endif %}
+<p style="text-align:center; font-size:0.8em; color:gray;">
+  {{ nature_images.size }} photographs in collection
+</p>
