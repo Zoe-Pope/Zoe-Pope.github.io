@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Nature"
+title: ""
 permalink: /nature/
 author_profile: true
 ---
@@ -14,7 +14,7 @@ author_profile: true
     id="nature-image"
     src="{{ nature_images[0].path | relative_url }}"
     alt="Nature photography"
-    style="display: block; width: 100%; max-width: 100%; height: auto;"
+    style="display: block; width: 100%; max-width: none; height: auto;"
   >
 </div>
 
