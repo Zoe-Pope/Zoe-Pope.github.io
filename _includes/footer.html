@@ -3,5 +3,15 @@
 <div class="page__footer-copyright">
   &copy; {{ site.time | date: '%Y' }} Zoë Pope
   <br />
-  Site last updated {{ "now" | date: '%d-%m-%Y' }}
+  {% assign day = site.time | date: "%-d" %}
+{% assign suffix = "th" %}
+{% if day == "1" or day == "21" or day == "31" %}
+  {% assign suffix = "st" %}
+{% elsif day == "2" or day == "22" %}
+  {% assign suffix = "nd" %}
+{% elsif day == "3" or day == "23" %}
+  {% assign suffix = "rd" %}
+{% endif %}
+
+Site last updated {{ site.time | date: "%B" }} {{ day }}{{ suffix }}, {{ site.time | date: "%Y" }}
 </div>
