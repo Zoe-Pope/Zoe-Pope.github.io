@@ -41,3 +41,19 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Make author profile picture larger on mobile */
+@media (max-width: 767px) {
+  .author__avatar {
+    width: 180px;
+    max-width: 180px;
+    margin: 0 auto 1em;
+  }
+
+  .author__avatar img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
